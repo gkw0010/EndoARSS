@@ -14,16 +14,20 @@ for enhancing surgical safety and efficiency.
 </p>
 
 ## Environment Setup (Linux)
+
 ### Clone this repository and navigate to the EndoARSS folder
+
 ```bash
 git clone https://github.com/gkw0010/EndoARSS
 cd EndoARSS/
+```
 
 ### Install required packages
-1. Basic Setup
-```bash
-conda create -n endoarss python=3.10 -y
-conda activate endoarss
-pip install -r requirements.txt
 
+1. **Basic Setup**
+   ```bash
+   conda create -n endoarss python=3.10 -y
+   conda activate endoarss
+   pip install -r requirements.txt
+   ```
 
