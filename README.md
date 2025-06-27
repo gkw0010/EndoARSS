@@ -24,10 +24,32 @@ cd EndoARSS/
 
 ### Install required packages
 
-1. **Basic Setup**
    ```bash
    conda create -n endoarss python=3.10 -y
    conda activate endoarss
    pip install -r requirements.txt
    ```
+
+## Data Download
+The MTLESD dataset can be downloaded through [this link](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155180074_link_cuhk_edu_hk/Eo_sCGxP1ZRKu72NT10fQhkBrJCg9brRs_D_peG7EaxPIg?e=nVvOyQ).
+
+## Train and eval
+
+```bash
+python ds_train.py
+```
+
+## Citation
+
+If you find ``EndoARSS`` useful for your research or development, please cite the following:
+
+[**PDF**](https://arxiv.org/pdf/2506.06830)
+
+```latex
+@article{tang2025endoarss,
+  title={EndoARSS: Towards High-Quality Surgical Scene Understanding in Endoscopy via Automatically Generated Dense Anatomical Region Segmentation and Description},
+  author={Tang, Rui and Wang, Guanyu and Lin, Dahai and Luo, Zhengqiang and Ye, Chengliang and Song, Jinzhong and Lin, Haibin and Yu, Lei and Zhang, Zhi},
+  journal={arXiv preprint arXiv:2506.06830},
+  year={2025}
+}
 
