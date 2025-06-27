@@ -174,7 +174,7 @@ if __name__ == "__main__":
     
     params.img_size = (244, 244)
     
-    params.arch = 'MOLA' # 'PLE'  #'DSelect_k' # 'PLE' # 'MOLA'
+    params.arch = 'MOLA' 
     
     #params.seg_only = True
     
@@ -184,9 +184,9 @@ if __name__ == "__main__":
 
     params.lr = 0.0011
     
-    params.weighting = 'DB_MTL' # 'GradVac' # 'GradNorm'
+    params.weighting = 'DB_MTL' 
     
-    params.encoder = 'dinonet' # 'resnet50' # 'dinonet' # 'resnet18'
+    params.encoder = 'dinonet' 
     
     #############################
     ## DSelect_k Parameters Configuration ##
@@ -219,8 +219,4 @@ if __name__ == "__main__":
     set_random_seed(42)
     
     main(params)
-    
-    # Date: 2024/08/30
-    # 1. TODO 新增HD、SSIM 图片分割评估指标 (OK)
-    # 2. TODO 新增Dinov2 适配多任务学习架构 (ok)
     
