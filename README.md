@@ -19,3 +19,11 @@ for enhancing surgical safety and efficiency.
 git clone https://github.com/gkw0010/EndoARSS
 cd EndoARSS/
 
+### Install required packages
+1. Basic Setup
+```bash
+conda create -n endoarss python=3.10 -y
+conda activate endoarss
+pip install -r requirements.txt
+
+
