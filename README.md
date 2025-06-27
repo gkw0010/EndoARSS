@@ -41,15 +41,18 @@ python ds_train.py
 
 ## Citation
 
-If you find ``EndoARSS`` useful for your research or development, please cite the following:
+If you find  [**EndoARSS**](https://arxiv.org/pdf/2506.06830) useful for your research or development, please cite the following:
 
-[**PDF**](https://arxiv.org/pdf/2506.06830)
+
 
 ```latex
-@article{tang2025endoarss,
-  title={EndoARSS: Towards High-Quality Surgical Scene Understanding in Endoscopy via Automatically Generated Dense Anatomical Region Segmentation and Description},
-  author={Tang, Rui and Wang, Guanyu and Lin, Dahai and Luo, Zhengqiang and Ye, Chengliang and Song, Jinzhong and Lin, Haibin and Yu, Lei and Zhang, Zhi},
-  journal={arXiv preprint arXiv:2506.06830},
-  year={2025}
+@misc{wang2025endoarssadaptingspatiallyawarefoundation,
+      title={EndoARSS: Adapting Spatially-Aware Foundation Model for Efficient Activity Recognition and Semantic Segmentation in Endoscopic Surgery}, 
+      author={Guankun Wang and Rui Tang and Mengya Xu and Long Bai and Huxin Gao and Hongliang Ren},
+      year={2025},
+      eprint={2506.06830},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.06830}, 
 }
 
