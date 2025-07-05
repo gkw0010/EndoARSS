@@ -35,7 +35,6 @@ The MTLESD and MTLEndovis dataset can be downloaded through [this link](https://
 | Checkpoint Name | Link |
 |------------------|------|
 | MTLESD           | [MTLESD](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155180074_link_cuhk_edu_hk/EnjQKAbjAetEhpZfQUNkCIUB5XkaCh-NuVquYtcL5KQ2tQ?e=v1adCV) |
-| MTLEndovis       | [MTLEndovis](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155180074_link_cuhk_edu_hk/EsujnTCjJh9FhpOcG2Nttj0BlZlg5QcQSLVAOu-JF41_nQ?e=Q9K87s) |
 
 ## Train and eval
 
